@@ -27,7 +27,8 @@ sed s:\<packaging\>pom\<\/packaging\>:\<packaging\>war\<\/packaging\>: <./pom.xm
 #===========================================================================
 # Clean the output directories, setup the classpath and the classes...
 #=========================================================================== 
-mvn clean eclipse:eclipse compile
+# mvn clean eclipse:eclipse compile
+mvn clean compile
 
 #===========================================================================
 # Changing the pom packaging back to 'pom'...
