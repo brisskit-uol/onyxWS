@@ -18,7 +18,7 @@
 (2) Within Eclipse, ensure you have the M2_REPO classpath variable set
     to point to your local maven repository (eg: /home/jblogs/.m2/repository) 
 
-(3) Book out this project from svn.
+(3) Book out this project from github.
  
 (4) Run the install.sh script, which will set up:
     (a) the Eclipse classpath
@@ -44,7 +44,6 @@
     In order to run this within a test or live situation, you may need
     to rename the artifact (eg: to onyxWS.war) to keep the standard URL. 
 (2) Try not to commit class files, jars and wars during development.
-(3) To deploy you will need authority upon the machine hosting the maven repo.
-    Best to have a public/private ssh key setup for this.
+(3) To deploy you will need requisite admin credentials in your settings.xml file
     
     

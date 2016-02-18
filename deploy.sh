@@ -7,10 +7,10 @@
 # Notes:
 # (1) Maven 2 must be installed
 # (2) Your maven settings.xml file should be set up to point to the brisskit maven repo.
-# (3) You must have authority to deploy, which depends upon having an account on the machine
-#     hosting the maven repository.
+# (3) You must have authority to deploy, 
+#     which depends upon credentials within your settings.xml file
 #
-# Author: Jeff Lusted (jl99@leicester.ac.uk)
+# Author: Jeff Lusted (jeff.lusted@gmail.com)
 #-----------------------------------------------------------------------------------------------
 
 
